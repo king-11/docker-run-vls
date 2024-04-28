@@ -1,0 +1,21 @@
+{
+  "name": "docker-run-vls",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.66",
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-penguin": "^2.2.0",
+    "vue": "^3.4.22"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.43.1"
+  }
+}
