@@ -241,7 +241,7 @@ layout: two-cols-header
 - `Alpine` Base Image
 - Compose `v1` and `v2`
 - Health Checks
-- **Non-Root**
+- **Non-Root (except TXOO)**
 - Persistence
 
 ::right::
