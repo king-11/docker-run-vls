@@ -63,7 +63,7 @@ graph TD
   B(Lightning Node)
   C(UTXOO)
   D((Signer))
-  E([Storage Server])
+  E([Lightning Storage Server])
   B --> |RPC| A
   C --> |RPC| A
   D <--> |HTTP| B
