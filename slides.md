@@ -19,7 +19,7 @@ image: /lakshya.jpg
 
 # Who am I?
 
-><span v-mark="{ type: 'strike-through', color: '#fff' }">Genuis, Billionaire, Playboy, Philanthropist?</span>
+><span v-mark="{ type: 'strike-through', color: '#fff' }">Genius, Billionaire, Playboy, Philanthropist?</span>
 
 - Lakshya Singh
 - Open Source Contributor \
@@ -77,7 +77,7 @@ layout: section
 
 # The Old Way
 
-Setting up a lightning node with vls requires manual operation. To prevent all the manual labour you were using non-custodial lightning wallets like Phoenix, Breez, etc.
+Setting up a lightning node with vls requires manual operation. To avoid all the manual labour you were using non-custodial lightning wallets like Phoenix, Breez, etc.
 
 ---
 
@@ -188,7 +188,7 @@ docker compose --profile vls -f docker-compose.yml -f docker-compose.testnet.yml
 
 ---
 
-It is recommended to run the VLS service separately on a <span v-mark="{ color: '#f7931b', type: 'highlight' }">security hardened device</span>.
+It is recommended to run the VLS service separately on a <span v-mark="{ color: '#f7931b', type: 'highlight' }">security hardened machine</span>.
 
 ```bash {1|2-4|5-6}
 cd vlsd
